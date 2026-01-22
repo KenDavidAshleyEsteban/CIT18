@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David | Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- 8-bit pixel font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- NAVIGATION -->
   <nav>
     <ul>
       <li class="dropdown">
@@ -14,7 +17,6 @@
         <div id="dropdown-menu" class="dropdown-content">
           <a href="#about">About Me</a>
           <a href="#education">Education</a>
-          <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
@@ -25,69 +27,93 @@
       </li>
     </ul>
   </nav>
+
+  <!-- HEADER -->
   <header>
     <h1>Ken David Ashley M. Esteban</h1>
     <p>Aspiring Full-stack Software Engineer | IT Student</p>
   </header>
   <hr>
-  <section id="about">
+
+  <!-- ABOUT -->
+  <section id="about" class="hover-section">
     <h2>About Me</h2>
-    <p>
-      I am Ken David Ashley M. Esteban, an aspiring full-stack software engineer currently pursuing a degree in Information Technology.
-      I have a strong interest in web development and am passionate about creating efficient and user-friendly applications.
-    </p>
+    <div class="section-content">
+      <p>
+        I am Ken David Ashley M. Esteban, an aspiring full-stack software engineer currently pursuing a degree in Information Technology.
+        I have a strong interest in web development and am passionate about creating efficient and user-friendly applications.
+      </p>
+    </div>
   </section>
   <hr>
-  <section id="education">
+
+  <!-- EDUCATION -->
+  <section id="education" class="hover-section">
     <h2>Education</h2>
-    <ul>
-      <li>
-        <strong>BS / Information Technology</strong><br>
-        University of the Cordilleras<br>
-        2024 – Present
-      </li>
-    </ul>
+    <div class="section-content">
+      <ul>
+        <li>
+          <strong>BS / Information Technology</strong><br>
+          University of the Cordilleras<br>
+          2024 – Present
+        </li>
+      </ul>
+    </div>
   </section>
   <hr>
-  <hr>
-  <section id="skills">
+
+  <!-- SKILLS -->
+  <section id="skills" class="hover-section">
     <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Kotlin</li>
-      <li>Java</li>
-    </ul>
+    <div class="section-content">
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
+        <li>Java</li>
+      </ul>
+    </div>
   </section>
   <hr>
-  <section id="projects">
+
+  <!-- PROJECTS -->
+  <section id="projects" class="hover-section">
     <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>UniMart</strong>
-        <p>Developed an e-commerce mobile application that caters to the needs of students and faculty members in the university campus. It contains features such as a shopping cart, product listings, user authentication, and in-app messaging.</p>
-      </li>
-      <li>
-        <strong>Upcoming Projects</strong>
-        <p>Projects that I will soon develop as I progress</p>
-      </li>
-    </ul>
+    <div class="section-content">
+      <ul>
+        <li>
+          <strong>UniMart</strong>
+          <p>Developed an e-commerce mobile application that caters to the needs of students and faculty members in the university campus. It contains features such as a shopping cart, product listings, user authentication, and in-app messaging.</p>
+        </li>
+        <li>
+          <strong>Upcoming Projects</strong>
+          <p>Projects that I will soon develop as I progress</p>
+        </li>
+      </ul>
+    </div>
   </section>
   <hr>
-  <section id="contact">
+
+  <!-- CONTACT -->
+  <section id="contact" class="hover-section">
     <h2>Contact Information</h2>
-    <p>Email: mrdavidesteban22@gmail.com</p>
-    <p>GitHub: 
-      <a href="https://github.com/KenDavidAshleyEsteban">
-        github.com/KenDavidAshleyEsteban
-      </a>
-    </p>
+    <div class="section-content">
+      <p>Email: mrdavidesteban22@gmail.com</p>
+      <p>GitHub: 
+        <a href="https://github.com/KenDavidAshleyEsteban">
+          github.com/KenDavidAshleyEsteban
+        </a>
+      </p>
+    </div>
   </section>
   <hr>
+
+  <!-- FOOTER -->
   <footer>
     <p>© 2026 Ken David Ashley M. Esteban</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
